@@ -1,0 +1,162 @@
+@import 'base.scss';
+
+.head{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 5%;
+    row-gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.zurueck {
+    background-color: $fontcolor;   
+    padding: 4%;
+}
+
+.kategorie p, button.zurueck {
+    font-size: 0.9rem;
+    
+}
+
+.zurueck, .kategorie{
+    vertical-align: baseline;
+    text-align: center;
+    width: auto;
+    color: white;
+    border: none;
+}
+
+.boschlogo {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width:60%;
+    height: auto;
+}
+
+.text p {
+    text-align: left;
+}
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: $lightgrey;
+}
+
+.kontakt {
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 5%;
+}
+
+.kontakt img {
+    width: 100%;
+}
+
+.kontaktinformation{
+    font-size: 0.8rem;
+}
+
+.kontaktinformation a {
+    color: $redused;
+}
+
+.downloads {
+    display: grid;
+    grid-template-columns: auto;
+    color:white;
+    margin-bottom: 10%;
+}
+.downloads button {
+    border: none;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.downloads button, .downloads, .text p, .kategorie {
+    font-size: $fontsize;
+    font-family: $font;
+}
+
+.downloads button, .downloads, .kategorie {
+    background-color: $redused;
+}
+
+@media (min-width: 768px){
+
+    .head{
+        display: grid;
+        grid-template-columns: 30% auto auto auto;
+        column-gap: 5%;
+        margin-top: 5%;
+         align-items:center;
+    }
+
+    .kategorie p, button.zurueck {
+        font-size: 0.7rem;
+    }
+    .zurueck, .kategorie{
+        padding-top: 5%;
+        align-self: center;
+        text-align: center;
+        width: auto;
+        color: white;
+        border: none;
+    }
+
+    .zurueck {
+        background-color: $fontcolor;   
+        padding: 9.8%;
+    }
+
+    .boschlogo {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width:40%;
+        height: auto;
+    }
+
+    .kontakt {
+        align-items: center;
+        column-gap: 1%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .kontakt img {
+        width: 80%;
+    }
+    
+    .kontaktinformation{
+        font-size: 1rem;
+    }
+
+    .downloads {
+        grid-template-columns: auto auto auto;
+        color:white;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        padding: 3%;
+    }
+    .downloads button, .downloads, .text p, .kategorie, .kontaktinformation {
+        font-size: 1.5rem;
+        font-family: $font;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .kategorie p, button.zurueck {
+     font-size: 0.9rem;
+}
+.zurueck {
+    background-color: $fontcolor;   
+    padding: 9%;
+}
+}

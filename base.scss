@@ -1,0 +1,28 @@
+@import 'variables.scss';
+
+@media (min-width: 320px) {
+    img.hsrmlogo {
+        width: 90%;
+        height: auto;
+    }
+}
+
+body {
+    font-family: $font;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: viewport;
+    height: auto;
+    color: $fontcolor;
+
+}
+
+.hsrmlogo{
+    width: 30%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 5%;
+    font-size: $fonth2size;
+}

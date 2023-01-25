@@ -1,0 +1,141 @@
+@import 'base.scss';
+
+h1 {
+    font-size: $fonth1sizeBIG;
+}
+
+h1 small {
+    color: $lightgrey;
+}
+
+.formular {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.blockinput, .upload {
+    padding: 5%;
+    width: 80%;
+}
+
+.blockinput, .upload{
+    box-shadow: 0px 0px 0.2rem 0.1rem $lightgrey;
+    border: none;
+}
+
+.textinput {
+
+    padding: 5%;
+    width: 80%;
+    box-shadow: 0px 0px 0.2rem 0.1rem $lightgrey;
+    border: none;
+}
+
+.hinzufuegen {
+    box-shadow: 0px 0px 0.2rem 0.1rem $lightgrey;
+    padding: 5%;
+    font-size: 0.8rem;
+    color: $fontcolor;
+    width: 80%;
+}
+
+.addform {
+    background: url(+.png) no-repeat;
+    background-size:contain;
+    border: none;
+    padding: 4%;
+    height:15%;
+    width: 15%;
+}
+
+.addform:active {
+    background: url(heart.png) no-repeat;
+    background-size:contain;
+    border: none;
+    padding: 4%;
+    height:15%;
+    width: 15%;
+}
+
+button.absenden{
+    background-color: $redused;
+    color: white;
+    height: auto;
+    width: 90%;
+    padding: 5%;
+    margin-top: 3%;
+    border: none;
+}
+
+
+button.zurueck {
+    margin-top: 4%;
+    padding: 5%;
+    margin-bottom: 4%;
+    height:auto;
+    width: 90%;
+    background-color: $fontcolor;
+    color: white;
+    border: none;
+}
+
+.blockinput, .upload, .textinput, .hinzufuegen {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.blockinput, .upload, button.zurueck, button.absenden, .textinput, .blockinput, .upload, label {
+    font-family: $font;
+    font-size: $fontsize; 
+}
+
+@media (min-width: 768px){
+    .blockinput, .upload {
+        width: 50%;
+        padding: 3%;
+    }
+
+    .textinput {
+        width: 52%;
+        padding: 2%;
+    }
+
+    .hinzufuegen {
+        width: 52%;
+        padding: 2%;
+        font-size: 1.3rem;
+    }
+
+    .addform, .addform:active {
+        padding: 4%;
+        height:15%;
+        width: 15%;
+    }
+
+    button.absenden{
+        padding: 2%;
+    }
+    
+    
+    button.zurueck {
+        padding: 2%;
+    }
+
+    .blockinput, .upload, .textinput, .hinzufuegen {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .blockinput, .upload, button.zurueck, button.absenden, .textinput, .blockinput, .upload, label {
+        font-family: $font;
+        font-size: 1.5rem; 
+    }
+
+}
+@media (size: 1024px) {
+    .hinzufuegen {
+        width: 52%;
+        padding: 2%;
+        font-size: 1.5rem;
+    }
+}

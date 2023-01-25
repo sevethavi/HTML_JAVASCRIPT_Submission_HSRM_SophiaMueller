@@ -1,0 +1,19 @@
+body {
+  font-family: FLAMA-Basic, arial, sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: viewport;
+  height: auto;
+  color: #3a3a3a;
+}
+
+.hsrmlogo {
+  width: 20vw;
+  height: auto;
+}
+
+h2 {
+  margin-top: 3.5vw;
+  font-size: 1.5vw;
+}
+/*# sourceMappingURL=main.css.map */

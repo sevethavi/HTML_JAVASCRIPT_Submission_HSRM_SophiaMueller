@@ -1,0 +1,161 @@
+@media (min-width: 320px) {
+  img.hsrmlogo {
+    width: 90%;
+    height: auto;
+  }
+}
+
+body {
+  font-family: FLAMA-Basic, arial, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: viewport;
+  height: auto;
+  color: #3a3a3a;
+}
+
+.hsrmlogo {
+  width: 30%;
+  height: auto;
+}
+
+h2 {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3vh;
+}
+
+h1 small {
+  color: rgba(0, 0, 0, 0.33);
+}
+
+.formular {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.blockinput, .upload {
+  padding: 5%;
+  width: 80%;
+}
+
+.blockinput, .upload {
+  -webkit-box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+  border: none;
+}
+
+.textinput {
+  padding: 5%;
+  width: 80%;
+  -webkit-box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+  border: none;
+}
+
+.hinzufuegen {
+  -webkit-box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+  padding: 5%;
+  font-size: 0.8rem;
+  color: #3a3a3a;
+  width: 80%;
+}
+
+.addform {
+  background: url(+.png) no-repeat;
+  background-size: contain;
+  border: none;
+  padding: 4%;
+  height: 15%;
+  width: 15%;
+}
+
+.addform:active {
+  background: url(heart.png) no-repeat;
+  background-size: contain;
+  border: none;
+  padding: 4%;
+  height: 15%;
+  width: 15%;
+}
+
+button.absenden {
+  background-color: #e0091c;
+  color: white;
+  height: auto;
+  width: 90%;
+  padding: 5%;
+  margin-top: 3%;
+  border: none;
+}
+
+button.zurueck {
+  margin-top: 4%;
+  padding: 5%;
+  margin-bottom: 4%;
+  height: auto;
+  width: 90%;
+  background-color: #3a3a3a;
+  color: white;
+  border: none;
+}
+
+.blockinput, .upload, .textinput, .hinzufuegen {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.blockinput, .upload, button.zurueck, button.absenden, .textinput, .blockinput, .upload, label {
+  font-family: FLAMA-Basic, arial, sans-serif;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .blockinput, .upload {
+    width: 50%;
+    padding: 3%;
+  }
+  .textinput {
+    width: 52%;
+    padding: 2%;
+  }
+  .hinzufuegen {
+    width: 52%;
+    padding: 2%;
+    font-size: 1.3rem;
+  }
+  .addform, .addform:active {
+    padding: 4%;
+    height: 15%;
+    width: 15%;
+  }
+  button.absenden {
+    padding: 2%;
+  }
+  button.zurueck {
+    padding: 2%;
+  }
+  .blockinput, .upload, .textinput, .hinzufuegen {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .blockinput, .upload, button.zurueck, button.absenden, .textinput, .blockinput, .upload, label {
+    font-family: FLAMA-Basic, arial, sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+@media (size: 1024px) {
+  .hinzufuegen {
+    width: 52%;
+    padding: 2%;
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=kontaktstyle.css.map */

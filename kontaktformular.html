@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmeldeformular für Firmen</title>
+    <link rel="shortcut icon" href="hsrm.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="kontaktstyle.css" />
+</head>
+<body>
+  <div class="head">
+    <img src="hsrmlogo.png" alt="HSRM Logo" class="hsrmlogo">
+    <h1> Anmeldeformular für Firmen
+      <br>
+        <small>Hier können Sie sich als Aussteller bei uns bewerben!</small>
+      </h1>
+  </div>
+    <h2>
+        Pflichtfelder
+    </h2>
+    <div class="formular">
+      <section class="contactinfo">
+        <form action="" class="kontaktformular">
+            <div class="input-block">
+              <input type="text" class="blockinput" placeholder="Firmenname">
+            </div>
+            <div class="input-block">
+                <label for="logoup">Logo hier hochladen</label>
+                <br>
+              <input type="file" class="upload" id="logoup">
+            </div>
+            <div class="input-text">
+              <textarea rows="2" type="text" class="textinput" placeholder="Standorte des Unternehmens" maxlength="100"></textarea>
+            </div>
+            <div class="input-text">
+              <textarea rows="3" type="text" class="textinput" placeholder="Kurzbeschreibung der Firma" maxlenght="100"></textarea>
+            </div>
+            <div class="input-text">
+              <textarea rows="5" type="text" class="textinput" placeholder="Langbeschreibung des Unternehmens" maxlength="500"></textarea>
+            </div>
+            <div class="input-block">
+              <input type="url" class="blockinput" placeholder="Unternehmenshomepage">
+            </div>
+          </form>
+      </section>
+    </div>
+ 
+    <h2>
+        Weitere optionale Felder
+    </h2>
+    <div class="formular">
+      <section class="contactinfo">
+        <form action="" class="kontaktformular">
+            <div class="input-block">
+              <input type="url" class="blockinput" placeholder="Bewerberseite-URL">
+            </div>
+            <div class="input-block">
+              <input type="email" class="blockinput" placeholder="Bewerber-eMail-Adresse">
+            </div>
+            <div class="input-block">
+              <input type="tel" class="blockinput" placeholder="Bewerber-Telefonnr.">
+            </div>
+            <div class="input-text">
+                  <textarea rows="3" type="text" class="textinput" placeholder="Bewerber-Kontakt/Anschrift-Informationen"></textarea>
+            </div>
+            <h2>PDF hochladen</h2>
+            <div class="input-block">
+              <br>
+              <input type="text" class="blockinput" multiple placeholder="Dateiname">
+              <input type="number" class="blockinput" multiple placeholder="Darstellungsortierung">
+              <input type="file" class="upload" multiple>
+              <br>
+              <div class="hinzufuegen">
+              <button class="addform" type="button"></button>
+              weitere Dateien Hinzufügen
+            </div>
+            </div>
+            <button class="absenden">Formular abschicken</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <button class="zurueck" onclick="window.location.href='hsrm_main.html'">&nbsp Zurück zur Startseite &nbsp</button>
+    
+  </body>
+</html>

@@ -1,0 +1,274 @@
+@media (min-width: 320px) {
+  img.hsrmlogo {
+    width: 90%;
+    height: auto;
+  }
+}
+
+body {
+  font-family: FLAMA-Basic, arial, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: viewport;
+  height: auto;
+  color: #3a3a3a;
+}
+
+.hsrmlogo {
+  width: 30%;
+  height: auto;
+}
+
+h2 {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.banner {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.bannertext {
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 1%;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.3rem;
+}
+
+.bannertext span {
+  background: rgba(0, 0, 0, 0.664);
+  color: white;
+  font-size: 1rem;
+  font-weight: medium;
+  padding: 0.5%;
+}
+
+.firmen {
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+}
+
+.infotext p, .firmenanmeldung p, .link {
+  text-align: left;
+  line-height: 1.3rem;
+}
+
+.link {
+  color: #e0091c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#suchfeldbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  background-color: #e0091c;
+  height: 5%;
+  padding: 3%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 5%;
+}
+
+select, input {
+  border: 0.1rem solid rgba(0, 0, 0, 0.33);
+  height: 2.5rem;
+  width: 13rem;
+  background: white;
+  font-size: 1rem;
+  color: #3a3a3a;
+  margin-top: 3%;
+}
+
+.firmen {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.firmenkarte {
+  float: inline-start;
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  width: auto;
+  display: block;
+  -webkit-box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.33);
+}
+
+button {
+  background: url(savebutton.svg);
+  width: 20%;
+  height: 13%;
+  float: right;
+  border: none;
+  position: relative;
+  top: -3%;
+  background-repeat: no-repeat;
+}
+
+button:active {
+  background: url(savedbutton.svg);
+  z-index: 10;
+  float: right;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+img.logopic {
+  width: 45%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.name {
+  display: block;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+hr.short {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  color: rgba(0, 0, 0, 0.33);
+}
+
+.kurzbeschreibung {
+  margin-left: 5%;
+  color: #3a3a3a;
+  margin-bottom: 5%;
+}
+
+.kurzbeschreibung p {
+  margin-top: 3%;
+}
+
+.kurzbeschreibung a {
+  color: #e0091c;
+  text-decoration: none;
+}
+
+.kurzbeschreibung a:hover {
+  text-decoration: underline;
+}
+
+.infotext p, .firmenanmeldung p, .link, .kurzbeschreibung a:hover, .kurzbeschreibung {
+  font-family: FLAMA-Basic, arial, sans-serif;
+  font-size: 1rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .root {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .infotext p, .firmenanmeldung p, .link, .kurzbeschreibung a:hover, .kurzbeschreibung, input, select {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  .bannertext {
+    z-index: 1;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    line-height: 290%;
+  }
+  .bannertext span {
+    background: rgba(0, 0, 0, 0.664);
+    color: white;
+    font-size: 3vh;
+    font-weight: medium;
+    padding: 0.5%;
+  }
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .firmen {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-column-gap: 3%;
+            column-gap: 3%;
+  }
+  #suchfeldbox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% auto auto;
+        grid-template-columns: 40% auto auto;
+    background-color: #e0091c;
+    height: 5%;
+    padding: 3%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  select, input {
+    font-size: 1.2 rem;
+    border: 0.1rem;
+    height: 2rem;
+    width: 9rem;
+    background: white;
+    font-size: 0.9rem;
+    color: #3a3a3a;
+  }
+}
+
+@media (min-width: 1024px) {
+  .firmen {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -webkit-column-gap: 3%;
+            column-gap: 3%;
+  }
+  select, input {
+    font-size: 1.3rem;
+    height: 3rem;
+    width: 12rem;
+  }
+}
+/*# sourceMappingURL=hsrmstyle.css.map */
